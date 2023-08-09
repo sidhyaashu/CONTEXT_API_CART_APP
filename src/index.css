@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navlink{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.home {
+  display: flex;
+}
+
+.productContainer {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
